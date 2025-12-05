@@ -1,0 +1,14 @@
+{
+    "name": "yourname/simple-api",
+    "description": "Modular PHP API with versioning, POST-only, JWT and rate limiting",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
